@@ -1,0 +1,34 @@
+contador = 0
+
+while contador <=  1:
+    
+    print(' ')
+    print('*'*27)
+    print('*        CONVERSOR        *')
+    print('*    1- Converter hora    *')
+    print('*    2- Sair              *')
+    print('*'*27)
+    print(' ')
+    print(' ')
+    contador = int(input('Selecione umas das opções acima: '))
+    if contador == 1:
+
+        print(' ')
+        print(' ')
+        hora = int(input('Digite as horas: '))
+        minuto = int(input('Digite os minutos: '))
+        if hora >= 12:
+            hora -= 12
+            print('Agora são exatamente {:02d}:{:02d} - PM'.format(hora,minuto))
+            contador = 0
+
+        else:
+            print('Agora são exatamente {:02d}:{:02d} - AM'.format(hora,minuto))
+    else:   
+        print(' ')
+        print(' ')
+        print(' ')        
+        print('PROGRAMA ENCERRADO !!!!!!!!!')
+        print(' ')
+        print(' ')
+        print(' ')

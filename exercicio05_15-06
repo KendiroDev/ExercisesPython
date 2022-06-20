@@ -1,0 +1,6 @@
+def somaimposto (taxaimposto, custo):
+    custo = int(input('Qual o valor do produto sem imposto?: R$'))
+    taxaimposto = custo * 1.18
+    print('O valor do produto com o imposto é de R${:.2f}'.format(taxaimposto))
+
+somaimposto (taxaimposto=any , custo= any)    

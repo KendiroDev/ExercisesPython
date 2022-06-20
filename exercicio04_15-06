@@ -1,0 +1,13 @@
+
+def nulo (numero):
+    global number 
+    if numero < 0 :
+        print('O numero {} é um numero negativo'.format(numero))
+    elif numero == 0:
+        print('O numero {} é um numero nulo'.format(numero))
+    else:
+        print('O numero {} é um numero positivo'.format(numero))
+
+
+number = int(input('Digite um numero para saber se ele é negativo positivo ou nulo: '))
+nulo(numero= number)

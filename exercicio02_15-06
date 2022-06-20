@@ -1,0 +1,9 @@
+rep = int(input('quantas repetiçoes você quer que o programa faça? '))
+contador = 0
+numero1 = []
+
+for numero in range(0,rep):
+    contador += 1
+    numero1.append(contador)
+    print(numero1 * contador)
+    del numero1 [0]
